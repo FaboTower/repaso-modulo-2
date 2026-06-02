@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Lucida Sans', sans-serif;
+    color: #222;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+.logo{
+    color: aquamarine;
+}
+
+.navbar{
+    display: flex;
+    gap:1rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #222;
+}
+
+.btn{
+    text-decoration: none;
+    border: none;
+    padding: 0.8rem 1rem;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items:cen;
+    background: linear-gradient(120deg, #7A7FBA, #11C37C);
+    padding: 3rem;
+    color: white;
+    min-height: 350px;
+}
+.hero-content{
+    max-width: 500px;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+.pasos{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+.pasos article{
+    flex: 1;
+    background-color: white;
+    border-radius: 0.9rem;
+    padding: 1.5rem;
+}
+
+.productos-section{
+    padding: 2rem;
+}
+
+.productos-section h2{
+    margin-bottom: 1rem;
+}
+
+.productos-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem
+}
+
+.card{
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.09);
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body h3{
+    margin-bottom: 0.5rem;
+}
+.card-body .precio{
+    font-weight: bold;
+    margin: 0.8rem 0.1rem;
+}
+.contacto{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 0.8rem;
+}
+
+.contacto input{
+    padding: 0.8rem;
+    width: 250px;
+    margin-right: 0.5rem;
+}
+
+
+
+.footer, .post-footer{
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: #11C37C;
+    color: white;
+}
